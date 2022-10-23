@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>htmlform</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src = "script.js"> </script>
+</head>
+<body>
+    <div class = "wrapper">
+        <h2>Registration</h2>
+        <h4>Personal Information</h4>
+        <form id = "form" action = "page2.html">
+            <div class = "input-box">
+                <input type = "text" placeholder="Surname" name = "surname" id = "surname" required>
+            </div>
+
+            <div class = "input-box">
+                <input type = "text" placeholder="Given Name" id = "givenName" required>
+            </div>
+
+            <div class = "input-box">
+                <input type = "type" placeholder="Student Number" maxlength = "11" id = "studNum" pattern = "[0-9]{11}"required>
+            </div>
+
+            <div class = "input-box">
+                <select name = "program" id = "programid" required>
+                    <option disabled = "disabled"  selected = "selected">Choose Program</option>
+                    <option value = "BS Computer Engineering">BS Computer Engineering</option>
+                    <option value = "BS Civil Engineering">BS Civil Engineering</option>
+                    <option value = "BS Mechanical Engineering">BS Mechanical Engineering</option>
+                    <option value = "BS Electrical Engineering">BS Electrical Engineering</option>
+                </select>
+            </div>
+
+            <div class = "input-box">
+                <input type = "number" placeholder="Year Level" min = "1" max="4" id="yearLevel" required>
+            </div>
+
+            <h4>Contact Information</h4>
+
+            <div class = "input-box">
+                <input type = "text" placeholder="UE Email" name = "UEemail" id = "UEemail" pattern=".+@ue.edu\.ph" required>
+            </div>
+
+            <div class = "input-box">
+                <input type = "text" placeholder="Personal Email" name = "personalEmail" id = "personalEmail" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+            </div>
+
+            <div class = "input-box">
+                <input type = "tel" placeholder="Contact Number" maxlength="11" id = "contactInfo" pattern = "[0-9]{11}" required>
+            </div>
+
+            <div class = "input-box button">
+                <button onclick="nxtbtn" id="nxtbtn">Next</button>
+            </div>
+
+            <div class="text">
+                <h3>You have an account already? <a href="#"> Log in></a></h3>
+            </div>
+
+        </form>
+    </div>
+</body>
+</html>

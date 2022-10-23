@@ -1,0 +1,145 @@
+/* ===== Google Font Import - Poformsins ===== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    background: #ffffff;
+    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=f3ddca4a68&attid=0.1&permmsgid=msg-f:1747398578495850673&th=184001bfc04488b1&view=att&disp=safe);
+    background-repeat: no-repeat;
+    background-position-y: 0px;
+    background-position-x: 200px;
+}
+
+.wrapper {
+    position: relative;
+    max-width: 500px;
+    width: 100%;
+    background: rgb(255, 255, 255);
+    padding: 100px;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0);
+}
+
+.wrapper h2{
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    color: #333;
+}
+
+.wrapper h2::before{
+    content:'';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 3px;
+    width: 28px;
+    border-radius: 12px;
+    background:#333;
+}
+
+.wrapper h4{
+    position: relative;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 30px;
+    color: #333;
+}
+
+.wrapper form{
+    margin-top: 10px;
+}
+
+.wrapper form .input-box{
+    height: 40px;
+    margin: 18px 0;
+}
+
+.wrapper form .input-box input{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1.5px solid #c7bebe;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3 ease;
+}
+
+.wrapper form .input-box select{
+    height: 100%;
+    width: 100%;
+    outline: none;
+    padding: 0 15px;
+    color: #333;
+    border: 1.5px solid #c7bebe;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3 ease;
+}
+
+.input-box input:focus,
+.input-box input:valid{
+    border-color: #4070f4;
+}
+
+form .policy{
+    display: flex;
+    align-items: center;
+}
+
+form h3{
+    color: #707070;
+    font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+
+.input-box.button button {
+    height: 100%;
+    width: 30%;
+    outline: none;
+    padding: 7px 15px;
+    font-size: 15px;
+    font-weight: 400;
+    border: 1.5px solid #c7bebe;
+    border-bottom-width: 2.5px;
+    border-radius: 6px;
+    transition: all 0.3 ease;
+    color: #fff;
+    letter-spacing: 1px;
+    text-decoration: none;
+    background:#333;
+    border: none;
+    cursor: pointer;
+}
+
+.input-box.button button:hover{
+    background: #0e4bf1;
+}
+
+form .text h3{
+    color: #333;
+    width: 100%;
+    text-align: center;
+}
+
+form .text h3 a{
+    text-decoration: none;
+}
+
+form .text h3 a:hover{
+    text-decoration: underline;
+}
