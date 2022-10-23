@@ -14,10 +14,10 @@ body {
     align-items: center;
     justify-content:flex-end;
     background: #ffffff;
-    background-image: url(https://mail.google.com/mail/u/0?ui=2&ik=f3ddca4a68&attid=0.1&permmsgid=msg-f:1747398578495850673&th=184001bfc04488b1&view=att&disp=safe);
+    background-image: url(images/bg.GIF);
     background-repeat: no-repeat;
-    background-position-y: 0px;
-    background-position-x: 200px;
+    background-size: 100%;
+    background-position: 30%;
 }
 
 .wrapper {
@@ -45,7 +45,7 @@ body {
     height: 3px;
     width: 28px;
     border-radius: 12px;
-    background:#333;
+    background:#e7b23c;
 }
 
 .wrapper h4{
@@ -127,7 +127,7 @@ form h3{
 }
 
 .input-box.button input:hover{
-    background: #0e4bf1;
+    background: #e7b23c;
 }
 
 .file input {
@@ -138,7 +138,7 @@ form h3{
 }
 
 form .text h3{
-    color: #333;
+    color: #e7b23c;
     width: 100%;
     text-align: center;
 }
